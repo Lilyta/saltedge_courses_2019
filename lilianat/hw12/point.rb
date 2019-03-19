@@ -10,7 +10,7 @@ keys    = page.css("div#post-list-container article div h2").text.split("\n\n")[
 links   = page.css("div#post-list-container figure img")[0..9].map { |sr| sr.attr("src")}
 results = Hash[keys.zip links]
 
-puts results
+pp results
 
 
 

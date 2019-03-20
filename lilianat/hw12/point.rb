@@ -17,6 +17,7 @@ pp results
 =begindef download (url, dest)
   open(url) do |u|
     File.open(dest, 'wb') { |f| f.write(u.read) }
+    https://cobwwweb.com/download-collection-of-images-from-url-using-ruby
   end
 end
 =end
